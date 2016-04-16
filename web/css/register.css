@@ -1,0 +1,183 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td{
+    margin: 0;
+    padding: 0;
+    font: 14px "宋体","Arial","sans-serif","Tahoma";
+    color: #666
+}
+ul,ol,li{list-style: none;}
+img{border: none;}
+input,select,img{vertical-align: middle;}
+label{vertical-align: middle;}
+input:focus,textarea:focus{outline: none;}
+.btn{border: none 0;}
+.mb10{margin-bottom: 10px}
+
+/*main*/
+.body{
+    width: 1140px;
+    margin: 0px auto;
+}
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus{
+    border: 1px solid rgba(82,168,236,0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+#head{
+    padding: 15px 0px 10px;
+    width: 1140px;
+    margin: 0 auto 15px;
+}
+.logo i{
+    padding: 2px 10px;
+    margin: 30px 10px 10px;
+    border-left: 1px solid gray;
+    font-size: 1.1em;
+    color: #666;
+}
+.logo a{
+    text-decoration: none;
+    outline: none;
+}
+#logn_right{
+    float: right;
+    margin: 62px 150px 0px 0px;
+    width: 150px;
+}
+#logn_right input{
+    background: #ff4500;
+    color: #fff;
+    padding: 2px 4px;
+    border: 1px solid #ff4500;
+}
+#logn_right a{
+    text-decoration: none;
+    outline: none;
+}
+#logn_right input:hover{
+    background: #F00;
+    color: #fff;
+}
+#nav {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    width: 100%;
+    z-index: 1;
+}
+#nav .nav-2{
+    background: rgba(0, 0, 0, 0) url(../images/reg.png) no-repeat scroll center top;
+    height:20px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+h1{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 1000px;
+    height: 450px;
+    margin: 0px auto;
+    padding: 10px;
+}
+form div{
+    overflow: hidden;
+    clear: both;
+}
+form div.regitm{
+    margin-bottom: 20px;
+}
+form div label{
+    float: left;
+    clear: both;
+}
+form div label .text{
+    width: 270px;
+    height: 44px;
+    padding: 0 2px;
+    border: 1px solid #ccc;
+}
+form div label b{
+    font-weight: normal;
+    font-size: 12px;
+    color: #ccc;
+    visibility: hidden;
+}
+form div em{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font-style: normal;
+    width: 53px;
+    height: 15px;
+    line-height: 15px;
+    background: #FFD099;
+}
+form div .active{background-color: #FF6600;}
+div span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.submitBtn{
+    width: 270px;
+    height: 44px;
+    background: #ff4500;
+    color: #fff;
+    margin: 10px 0 0 88px;
+}
+.submitBtn:hover{
+    background: #f00;
+    color: #fff;
+}
+.submitBtn:active{
+    outline: none;
+}
+/*.changeImg{
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../images/sprite.png) no-repeat 0 -128px;
+}*/
+.msg{
+    line-height: 12px;
+    float: left;
+    margin: 10px 0px 0px 5px;
+    display: none;
+}
+.msg i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin: 0px 2px 3px;
+    background: url(../images/sprite.png) no-repeat;
+}
+.msg .ati{background-position: -746px -1383px;}
+.msg .err{background-position: -135px -1383px;}
+.msg .ok{background-position: -386px -1383px;}
+#footer{
+    padding: 1em 0 2em;
+    background: #fff;
+    text-align: center;
+}
+#footer-grid{
+    color: black;
+    font-size: 0.9em;
+}

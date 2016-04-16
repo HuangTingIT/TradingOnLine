@@ -1,0 +1,93 @@
+.top-nav ul li {
+    border-bottom: 10px solid #FF4500;
+}
+
+.hp-user-info {
+    margin: 0 auto;
+    height: 125px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.hp-user-info .hd {
+    float: left;
+}
+
+.hp-user-info .bd {
+    background: rgba(225, 225, 225, 0.7) none repeat scroll 0 0;
+    height: 125px;
+    margin-left: 80px;
+}
+.bd input[type=submit] {
+    float: right;
+    padding: 4px 6px;
+    margin: 3em 2em;
+    color: white;
+    background-color: #FF4500;
+    border: none;
+}
+
+.bd input[type=submit]:hover {
+    background-color: #FF9900;
+}
+
+.contact-grid span{
+    width: 80px;
+    display: inline-block;
+}
+.contact-grid input[type=text] {
+    width: 200px;
+    height: 2em;
+    border: solid 1px gray;
+    margin: 0;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.contact-grid input[type=text]:focus {
+    border: 1px solid rgba(82,168,236,0.8);
+}
+
+.hp-user-info .user-pic {
+    border-radius: 50%;
+    height: 125px;
+    margin-left: 5px;
+    max-width: none;
+    width: 125px;
+    margin-top: -10px;
+}
+form div {
+    padding: 10px 2px;
+    margin: 5px;
+}
+
+
+.contact-grid {
+    margin: 1em 0 1em 5em;
+    font-size: 1.4em;
+    width: 100%;
+    padding: 1em 1em;
+}
+.col {
+    padding: 3em 3em;
+    margin: 1em auto;
+    width: 800px;
+}
+.msg{
+    line-height: 12px;
+    color: #999;
+    margin: 5px 0px 0px 5px;
+    display: none;
+    font-size: 14px;
+}
+.msg i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin: 0px 2px 3px;
+}
+.msg .ati{background-position: -746px -1383px;}
+.msg .err{background-position: -135px -1383px;}
+.msg .ok{background-position: -386px -1383px;}

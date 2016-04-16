@@ -1,0 +1,179 @@
+
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus{
+	border: 1px solid rgba(82,168,236,0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+#head{
+	padding: 15px 0px 10px;
+	width: 1140px;
+	margin: 0 auto 10px;
+	height: 98px;
+}
+.logo{
+	width: 1140px;
+}
+.logo a{
+	text-decoration: none;
+	outline: none;
+}
+#logo{
+	margin-top: 0px;
+}
+.logo i{
+	padding: 2px 10px;
+	margin: 30px 10px 10px;
+	border-left: 1px solid gray;
+	font-size: 1.1em;
+	color: #666;
+}
+
+#nav {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	width: 100%;
+	z-index: 1;
+}
+#nav .nav-2 {
+	background: rgba(0, 0, 0, 0) url("../images/reg.png") no-repeat scroll center top;
+	height: 20px;
+}
+.clearfix::after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+}
+.clearfix::after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+h1{
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#logingif{
+	display: inline-table;
+	margin:4% 10%;
+	vertical-align: top;
+}
+.content{
+	width: 1140px;
+	margin:4% 10% 10%;
+}
+#container{
+	width: 400px;
+	padding-right: 0px;
+	border: solid 1px gray;
+	display: inline-table;
+	box-shadow: 5px 5px 10px #aaa;
+}
+#register{
+	padding:0px 0px 1.5em;
+}
+.login-left{
+	float: right;
+	width: 65px;
+	font-size: 0.9em;
+	padding: 0px;
+}
+#login-right{
+	width: 385px;
+	padding: 0em 0em 1em 2em;
+}
+#login-right a:hover{
+	color: #f00;
+	font-weight: bold;
+}
+form{
+	width: 284px;
+	height: 250px;
+	padding-left: 1em;
+}
+.login-left a{
+	background: #fff;
+	color: #ff4500;
+	outline: none;
+}
+div.infield{
+	width: 270px;
+	margin: 40px 0px 0px;
+}
+div#forget{
+	float: right;
+	font-size: 0.8em;
+}
+div.submit{
+	margin: 30px 0px 0px;
+	clear: both;
+}
+input{
+	border: 1px solid #ff4500;
+	margin: 1em 0;
+	outline: medium none;
+	padding: 0.8em;
+	width: 270px;
+}
+#login-right
+input[type="submit"]:hover{
+	background: #FF0000;
+	color: #fff;
+
+}
+input[type="submit"] {
+	background: #ff4500 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.2em;
+	outline: medium none;
+	padding: 0.4em 0.8em;
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+}
+form div .active {
+	background-color: #ff6600;
+}
+form div em{
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-style: normal;
+	width: 53px;
+	height: 15px;
+	line-height: 15px;
+	background: #FFD099;
+}
+.msg{
+	line-height: 12px;
+	margin: 10px 0px 0px 5px;
+	display: none;
+}
+.msg i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px 3px;
+	background: url(../images/sprite.png) no-repeat;
+}
+.msg .ati{background-position: -746px -1383px;}
+.msg .err{background-position: -135px -1383px;}
+.msg .ok{background-position: -386px -1383px;}
+#footer{
+	padding: 1em 0 2em;
+	background: #fff;
+	text-align: center;
+	width: 1140px;
+	margin: 2em auto;
+}
+#footer-grid{
+	color: black;
+	font-size: 0.9em;
+}

@@ -1,0 +1,674 @@
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "tmsg-iconfont";
+    src: url("//g.alicdn.com/tb/icon-font/1.1.8/iconfont.eot?#iefix") format("embedded-opentype"), url("//g.alicdn.com/tb/icon-font/1.1.8/iconfont.woff") format("woff"), url("//g.alicdn.com/tb/icon-font/1.1.8/iconfont.ttf") format("truetype"), url("//g.alicdn.com/tb/icon-font/1.1.8/iconfont.svg#uxiconfont") format("svg");
+}
+.tmsg .iconfont {
+    font-family: tmsg-iconfont;
+    font-style: normal;
+}
+#seller-nav .tmsg .iconfont, .site-nav .tmsg .menu-hd .iconfont {
+    font-size: 14px;
+    margin-right: 0;
+}
+.tmsg_panel_active {
+    z-index: 2147483647;
+}
+.site-nav .tmsg, #seller-nav .tmsg {
+    display: inline;
+    float: left;
+    position: relative;
+    text-align: left;
+    z-index: 102400;
+}
+#seller-nav .tmsg .menu-hd {
+    width: auto;
+}
+#J_SiteNav .tmsg_basic {
+}
+#seller-nav .tmsg .tmsg_basic {
+}
+.site-nav-bd .tmsg .menu .menu-hd i {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+#seller-nav .tmsg .hover .menu-bd, #seller-nav .tmsg .menu:hover .menu-bd {
+    left: -1px;
+    top: 22px;
+}
+.site-nav-bd .tmsg .menu-active .menu-hd {
+    background: #fff none repeat scroll 0 0;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 0 1px;
+    padding: 0 5px 1px;
+}
+.site-nav-bd .tmsg .menu-active .menu-hd i {
+    transform: rotate(180deg);
+}
+.site-nav-bd .tmsg .menu-active .menu-hd i em, .site-nav-bd .tmsg .menu-active .menu-hd i span {
+}
+.site-nav-bd .tmsg .menu-active .menu-hd i em {
+}
+.site-nav-bd .tmsg .menu-active .menu-hd i span {
+    border-top-color: #fff;
+}
+#seller-nav .tmsg .menu-active .menu-hd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #8fc2e5 #8fc2e5 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin: 2px 0 0;
+    position: relative;
+}
+.tmsg_button_go-back, .tmsg_button_read-all, .tmsg_button_setting, .tmsg_button_feedback, .tmsg_button_close-app, .tmsg_button_deploy-app, .tmsg_button_more, .tmsg_button_linkout-to-app, .tmsg_app_title_app-name, .tmsg_app_list_item_tip_fixie-num, .tmsg_app_list_item_tip_fixie-num i, .tmsg_app_settilg-item_edit, .tmsg_app_settilg-item_button-edit {
+    background-image: url("//gtd.alicdn.com/tps/i4/T1uJd2FD8bXXbA0cQR-80-170.png");
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -200px;
+}
+#seller-nav .tmsg_button_go-back, #seller-nav .tmsg_button_read-all, #seller-nav .tmsg_button_setting, #seller-nav .tmsg_button_feedback, #seller-nav .tmsg_button_close-app, #seller-nav .tmsg_button_deploy-app, #seller-nav .tmsg_button_more, #seller-nav .tmsg_button_linkout-to-app, #seller-nav .tmsg_app_title_app-name, #seller-nav .tmsg_app_list_item_tip_fixie-num, #seller-nav .tmsg_app_list_item_tip_fixie-num i, #seller-nav .tmsg_app_settilg-item_edit, #seller-nav .tmsg_app_settilg-item_button-edit {
+    background-image: url("//gtd.alicdn.com/tps/i2/T1UmznFCXcXXbA0cQR-80-170.png");
+}
+.tmsg_tips {
+    position: absolute;
+}
+#seller-nav #J_Tmsg .tmsg_panel_foot .tmsg_tips {
+    bottom: -20px;
+}
+#seller-nav #J_Tmsg .tmsg_panel_foot .tmsg_tips a {
+    color: #fff;
+}
+.tms_tips_arrow {
+    color: #555 !important;
+    left: 6px;
+    line-height: 100%;
+    position: absolute;
+    top: -6px;
+}
+.tmsg_tips_content {
+    background: #555 none repeat scroll 0 0;
+    border-radius: 1px;
+    color: #ccc;
+    line-height: 19px;
+    padding: 2px 6px;
+}
+.tmsg_tips_content a {
+    color: #ccc;
+}
+.tmsg_tips_content a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.tmsg_logo_area {
+}
+.tmsg_logo_loading {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i1/T1oykcFidbXXXcAos.-13-5.gif") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 13px;
+}
+.tmsg_logo_active .tmsg_logo_icon, .tmsg_logo_active .tmsg_logo_unread {
+    color: #ff5011 !important;
+}
+.tmsg_panels {
+}
+.tmsg_panel_apps, .tmsg_panel_detail, .tmsg_panel_history, .tmsg_panel_setting {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #eee #eee;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    box-shadow: 1px 1px 2px #ddd;
+    position: absolute;
+    width: 288px;
+    z-index: 2147483647;
+}
+.tmsg_panel_detail, .tmsg_panel_history, .tmsg_panel_setting {
+    left: 0;
+    top: 35px;
+}
+#seller-nav .tmsg_panel_detail, #seller-nav .tmsg_panel_history, #seller-nav .tmsg_panel_setting {
+    border-color: #8fc2e5;
+    top: 0;
+}
+.tmsg_panel_detail, .tmsg_panel_history, .tmsg_panel_setting {
+    display: none;
+}
+#seller-nav .tmsg_panel_apps {
+    border-color: #8fc2e5;
+}
+.tmsg_panel_head {
+    border-bottom: 1px solid #eee;
+    height: 37px;
+    line-height: 37px;
+    position: relative;
+    text-align: center;
+}
+#seller-nav .tmsg_panel_head {
+    border-bottom-color: #c7dbe8;
+}
+.tmsg_panel_title {
+    color: #222;
+    font-size: 14px;
+}
+.tmsg_button_read-all {
+    background-position: 0 -158px;
+    height: 12px;
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    width: 12px;
+}
+.tmsg_button_read-all:hover {
+    background-position: -13px -158px;
+}
+.tmsg_panel_foot {
+    border-top: 1px solid #eee;
+    height: 32px;
+    position: relative;
+}
+#seller-nav .tmsg_panel_foot {
+    border-top-color: #c7dbe8;
+}
+.tmsg_button_check-all_wrap {
+    line-height: 100%;
+    position: absolute;
+    right: 17px;
+    top: 9px;
+}
+.tmsg_button_check-all_wrap a {
+    color: #696969;
+}
+.tmsg_button_check-all_wrap span {
+    color: #ccc;
+}
+.tmsg_button_check-all .tmsg_tips {
+    display: none;
+    right: 0;
+    top: 20px;
+    width: 84px;
+}
+.tmsg_button_check-all .tms_tips_arrow {
+    left: inherit;
+    right: 6px;
+}
+.tmsg_button_check-all:hover .tmsg_tips {
+    display: block;
+}
+.tmsg_panel_foot .tmsg_button_check-all {
+    color: #696969;
+}
+.tmsg_button_setting, .tmsg_button_feedback {
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    width: 12px;
+}
+.tmsg_button_setting {
+    background-position: 0 -132px;
+    left: 17px;
+}
+.tmsg_button_setting:hover {
+    background-position: -13px -132px;
+}
+.tmsg_button_feedback {
+    background-position: 0 -145px;
+    left: 37px;
+}
+.tmsg_button_feedback:hover {
+    background-position: -13px -145px;
+}
+.tmsg_panel_body {
+}
+.tmsg_app {
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    padding: 4px 0 16px;
+    position: relative;
+    width: 288px;
+}
+#seller-nav .tmsg_app {
+    border-bottom-color: #c7dbe8;
+}
+.tmsg_app:last-child {
+    border-bottom: 0 none;
+}
+.tmsg_app:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+}
+#seller-nav .tmsg_app:hover {
+    background: #f5fbff none repeat scroll 0 0;
+}
+.tmsg_app_title {
+    color: #3c3c3c;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    padding: 13px 17px 11px;
+}
+.tmsg_app .tmsg_app_btn_remove {
+    display: none;
+}
+.tmsg_app:hover .tmsg_app_btn_remove {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i3/T1wPnQFIhXXXaHNz_X-16-16.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    left: 255px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 100%;
+    top: 17px;
+    width: 16px;
+}
+.tmsg_app_title_app-name {
+    background-position: -78px 3px;
+    color: #888;
+    display: inline;
+    margin-right: 3px;
+    overflow: auto;
+    padding-left: 6px;
+    text-indent: 0;
+}
+.tmsg_app_title_new-info {
+    font-weight: 400;
+}
+.tmsg_app_title_new-info span {
+    color: #ff4b09;
+    font-family: sans-serif;
+}
+.tmsg_app_list {
+    height: 60px;
+    overflow: hidden;
+    padding: 2px 17px 0;
+    width: 210px;
+}
+.tmsg_app_list_single {
+    padding: 0;
+    width: inherit;
+}
+.tmsg_app_list_item {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.tmsg_app_list_item_thumb {
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.tmsg_button_close-app {
+    background-position: 0 -57px;
+    height: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+}
+.tmsg_button_close-app:hover {
+    background-position: -16px -57px;
+}
+.tmsg_app:hover .tmsg_button_close-app {
+    display: block;
+}
+.tmsg_button_deploy-app {
+    background-position: 0 -72px;
+    display: none;
+    height: 60px;
+    position: absolute;
+    right: 11px;
+    top: 47px;
+    width: 20px;
+}
+.tmsg_button_more {
+    background-position: -39px -132px;
+    height: 13px;
+    position: absolute;
+    right: 15px;
+    top: 65px;
+    width: 28px;
+}
+.tmsg_app:hover .tmsg_button_deploy-app {
+    display: block;
+}
+.tmsg_button_linkout-to-app, .tmsg_app:hover .tmsg_button_more {
+    display: none;
+}
+.tmsg_app:hover .tmsg_button_linkout-to-app {
+    background-position: -40px -72px;
+    display: block;
+    height: 60px;
+    position: absolute;
+    right: 13px;
+    top: 47px;
+    width: 20px;
+}
+.tmsg_app_list_item_tip {
+    bottom: 1px;
+    font-family: SimSun\9 ;
+    position: absolute;
+    right: -3px;
+}
+.tmsg_app_list_item_tip i {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #f40;
+    border-image: none;
+    border-style: solid;
+    border-width: 3px;
+    height: 0;
+    position: absolute;
+    right: -3px;
+    top: -2px;
+    width: 0;
+}
+.tmsg_app_list_item_tip span {
+    background: #f40 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    line-height: 15px;
+    padding: 0 3px 0 2px;
+    position: relative;
+    z-index: 1;
+}
+@media all and (min-width: 0px) {
+.tmsg_app_list_item_tip {
+    font-family: SimSun�;
+}
+.tmsg_app_list_item_tip i {
+}
+}
+.tmsg_app-shop .tmsg_app_list {
+    height: 50px;
+    overflow: hidden;
+    padding-right: 0;
+    width: 227px;
+}
+.tmsg_app-shop .tmsg_app_list_item {
+    margin: 0 21px 0 2px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip i {
+    display: none;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip span {
+    border-radius: 8px;
+    padding: 0 4px 0 5px;
+}
+.tmsg_app-shop .tmsg_app_list_item_thumb {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip {
+    right: 0;
+    top: -2px;
+}
+.tmsg_app_list_item_tip_fixie-num, .tmsg_app_list_item_tip_fixie-mask {
+    display: none;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip {
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-mask {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i4/T1yuJ2FtRbXXcqIPT5-50-100.png") no-repeat scroll 0 0;
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-num {
+    background-position: -32px -56px;
+    color: #fff;
+    font-family: simsun;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-num, .tmsg_app-shop .tmsg_app_list_item_tip_fixie-num i, .tmsg_app-shop .tmsg_app_list_item_tip_fixie-num span {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 0;
+    vertical-align: middle;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-num i {
+    background-position: -73px -56px;
+    width: 7px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-num span {
+    line-height: 17px;
+    margin-left: 7px;
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-mask:hover {
+    background-position: 0 -50px;
+}
+@media all and (min-width: 0px) {
+.tmsg_app-shop .tmsg_app_list_item_tip {
+}
+.tmsg_app-shop .tmsg_app_list_item_tip_fixie-num, .tmsg_app-shop .tmsg_app_list_item_tip_fixie-mask {
+    display: none;
+}
+}
+.tmsg_error {
+    padding: 0 35px;
+}
+.tmsg_error_notice {
+    font-size: 14px;
+    margin: 30px 0 10px;
+    text-align: center;
+}
+.tmsg_error_pic {
+    height: 140px;
+    margin: auto 0;
+    width: 218px;
+}
+.tmsg_error_pic_type1 {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i2/T1g2x8FEBcXXc.b8bx-148-124.png") no-repeat scroll center center;
+}
+.tmsg_error_pic_type2 {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i2/T1hXh9FutkXXaXzF.Q-123-140.png") no-repeat scroll center center;
+}
+.tmsg_error_pic_loading {
+    background: rgba(0, 0, 0, 0) url("//gtd.alicdn.com/tps/i4/T1HcvHXd4nXXb6ROYh-48-48.gif") no-repeat scroll center center;
+}
+.tmsg_button_check-prev-msgs {
+    background: #fff0e8 none repeat scroll 0 0;
+    border: 1px solid #ffe8de;
+    color: #6d6d6d;
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    margin: 0 auto 8px;
+    text-align: center;
+    width: 148px;
+}
+.tmsg_button_check-prev-msgs:hover {
+    background: #ffe6da none repeat scroll 0 0;
+    border-color: #ffdac7;
+    color: #6d6d6d !important;
+    text-decoration: none;
+}
+#seller-nav .tmsg_button_check-prev-msgs {
+    background: #eff8ff none repeat scroll 0 0;
+    border: 1px solid #eff8ff;
+    color: #6d6d6d;
+}
+#seller-nav .tmsg_button_check-prev-msgs:hover {
+    background: #e2f0fb none repeat scroll 0 0;
+    border-color: #e2f0fb;
+    color: #6d6d6d !important;
+    text-decoration: none;
+}
+.tmsg_button_refresh {
+    color: #f40 !important;
+}
+.tmsg_details_item {
+    border-bottom: 1px solid #eee;
+    color: #6d6d6d;
+    height: 19px;
+    min-height: 60px;
+    overflow: hidden;
+    padding: 12px 0 17px 87px;
+    position: relative;
+}
+.tmsg_app_list .tmsg_details_item {
+    padding: 0 0 0 17px;
+}
+.tmsg_details_item a, #seller-nav .tmsg_details_item a {
+    color: #222;
+}
+#seller-nav .tmsg_details_item a {
+    line-height: 1.5;
+}
+.tmsg_details_item_thumb {
+    left: 17px;
+    position: absolute;
+    top: 15px;
+}
+.tmsg_app_list_single .tmsg_details_item_thumb {
+    float: none;
+    left: 17px;
+    position: absolute;
+    top: 0;
+}
+.tmsg_panel_strong_item .tmsg_app_list_single .tmsg_details_item_thumb {
+    left: 0;
+}
+.tmsg_app_list_single .tmsg_details_item {
+    padding-left: 87px;
+    width: 201px;
+}
+.tmsg_panel_strong_popup .tmsg_app_list_single .tmsg_details_item {
+    width: 136px;
+}
+.tmsg_panel_strong_popup .tmsg_app_list_single .tmsg_details_item .tmsg_details_item_title {
+    height: 29px;
+    line-height: 120% !important;
+    overflow: hidden;
+    padding: 0;
+}
+.tmsg_details_item_thumb img {
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.tmsg_details_item_title {
+    font-weight: 400;
+    line-height: 150% !important;
+    padding-right: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.tmsg_details_item_title a, .tmsg_details_item_info a, #seller-nav .tmsg_details_item_info a, #seller-nav .tmsg_details_item_title a {
+    color: #6d6d6d;
+}
+.tmsg_link {
+    left: 87px;
+    position: absolute;
+    top: 42px;
+}
+.tmsg_panels {
+    position: relative;
+}
+.tmsg_panel_strong {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 1px 1px 2px #eee;
+    left: -75px;
+    position: absolute;
+    top: 35px;
+    z-index: 100;
+}
+.tmsg_panel_strong .tmsg_app_list {
+    height: 50px;
+}
+.tmsg_panel_strong_popup {
+    border: 1px solid #eee;
+    min-height: 74px;
+    padding: 11px 12px 13px;
+    position: relative;
+    width: 204px;
+}
+.tmsg_panel_strong_popup .tmsg_details_item_thumb img {
+    height: 50px;
+    width: 50px;
+}
+.tmsg_panel_strong_item .tmsg_app_title {
+    padding: 0 0 11px;
+}
+.tmsg_panel_strong_item .tmsg_details_item {
+    border-bottom: 0 none;
+    padding-left: 63px;
+}
+.tmsg_panel_strong_popup .tmsg_button_close-app {
+    background-position: -16px -57px;
+    cursor: pointer;
+    right: 8px;
+    top: 8px;
+}
+.tmsg_panel_strong_item .tmsg_link {
+    left: 63px;
+    top: 32px;
+}
+.tmsg_panel_strong_button_prev, .tmsg_panel_strong_button_next {
+    background-image: url("//gtd.alicdn.com/tps/i4/T18X1SFzXbXXa3oiYh-51-46.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 23px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -200px;
+    top: 52px;
+    width: 17px;
+}
+.tmsg_panel_strong_button_prev {
+    background-position: -19px -23px;
+    left: 0;
+    width: 12px;
+}
+.tmsg_panel_strong_button_prev:hover {
+    background-position: -36px -23px;
+}
+.tmsg_panel_strong_button_next {
+    background-position: -21px 0;
+    right: 0;
+    width: 12px;
+}
+.tmsg_panel_strong_button_next:hover {
+    background-position: -37px 0;
+}
+.tmsg_panel_history .tmsg_app_title, #seller-nav .tmsg_panel_history .tmsg_app_title {
+    color: #888;
+}
+.tmsg_panel_history .tmsg_details_item .tmsg_details_item_info a, .tmsg_panel_history .tmsg_details_item .tmsg_details_item_title a, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_details_item_info a, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_details_item_title a {
+    color: #ccc;
+}
+.tmsg_panel_history .tmsg_details_item .tmsg_link, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_link {
+    color: #999;
+}
+#seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_link {
+    line-height: 1.5;
+}
+.tmsg_panel_history .tmsg_details_item .tmsg_link:hover, .tmsg_panel_history .tmsg_details_item .tmsg_details_item_info a:hover, .tmsg_panel_history .tmsg_details_item .tmsg_details_item_title a:hover, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_link:hover, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_details_item_info a:hover, #seller-nav .tmsg_panel_history .tmsg_details_item .tmsg_details_item_title a:hover {
+    text-decoration: underline;
+}

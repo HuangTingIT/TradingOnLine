@@ -1,0 +1,118 @@
+<%@ page import="TOL.VO.Goods" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="TOL.VO.User" %><%--
+  Created by IntelliJ IDEA.
+  User: HuangTing
+  Date: 2015/12/13
+  Time: 17:11
+  To change this template use File | Settings | File Templates.
+
+  <c:foreach var="goods" items="${sessionScope.GoodsList}" varStatus="goodsCount">
+    ��Ʒ����:${goods}<br>
+    ����:${goods.categor}<br>
+    ����:${goods.num}<br>
+    �۸�:${goods.price}<br>
+    ����:${goods.description}<br>
+    ��ַ:${goods.address}<br>
+    �������:${goods.vew_num}<br>
+    ͼƬ��
+</c:foreach>
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!--fonts-->
+    <link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <script>
+        function checklogin(userid)
+        {
+            var id = userid;
+            if(id==null)
+            {
+                alert("���ȵ�¼!");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<%
+    //request.setCharacterEncoding("GBK");
+    if(session.getAttribute("judge_addGoods")!=null&&(boolean) session.getAttribute("judge_addGoods")==true)
+    {
+        %>
+<h1>��Ʒ��ӳɹ�</h1>
+<%
+    }
+%>
+<%
+    ArrayList<Goods> goodsList=(ArrayList<Goods>)session.getAttribute("GoodsList");
+    //ArrayList<Goods> goodsList=(ArrayList<Goods>) request.getAttribute("GoodList");
+    if(goodsList==null||(goodsList.size()==0)){
+        %><h1>����û�з�����Ʒ<h1>
+    <%
+    }else{
+    for(int i=0;i<goodsList.size();i++){
+        System.out.print(goodsList.size());
+        Goods goods=goodsList.get(i);
+
+%>
+    ��Ʒ����:<%=goods.getName()%><br>
+    ����:<%=goods.getCategory()%><br>
+    ����:<%=goods.getNum()%><br>
+    �۸�:<%=goods.getPrice()%><br>
+    ����:<%=goods.getDescription()%><br>
+    ��ַ:<%=goods.getAddress()%><br>
+    �������:<%=goods.getView_num()%><br>
+    ͼƬ:
+<%
+    String publicPath="GoodsPictures/";
+    String path[]=goods.getPictures().split(";");
+
+    for(int j=0;j<path.length;j++){
+        String filePath=publicPath+path[j];
+        System.out.println("\n"+filePath);
+%>
+        <img src="<%=filePath%>" width="100" >
+        <form action="AddGoodsServlet" method="post">
+            <%
+                User users = (User) session.getAttribute("User");
+            %>
+            <input type="hidden" value=<%=users.getUserId()%> name="userid">
+            <input type="hidden" value="<%=goods.getGoodsID()%>" name="goodsid">
+            <input type="submit" value="���빺�ﳵ" onclick="return checklogin(<%=session.getAttribute("User")%>)"><br>
+        </form>
+<%
+    }
+    }
+    }
+%>
+        
+
+</body>
+</html>

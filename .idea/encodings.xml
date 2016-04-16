@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/TOL/DAO/IMPL/GoodsDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/DAO/IMPL/UserDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/DAO/OutShelvesDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/DAO/Proxy/UserDAOProxy.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/DAO/SearchGoods_Dao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Other/IpTimeStamp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Other/SendEmail.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/AddInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/Register.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/ReleaseGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/SearchServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/SendPIN.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/ShowGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/ShowMyGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TOL/Servlet/ShowUserInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/addInfo.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/aler.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/changepassword.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/checkout.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/recordTime.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/register.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/release.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/sendMail.js" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

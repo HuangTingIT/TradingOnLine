@@ -1,0 +1,71 @@
+
+.top-nav ul li{
+    border-bottom: 10px solid #FF4500;
+}
+
+.hp-user-info {
+    margin: 0 auto;
+    height: 125px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+    position: relative;
+    z-index: 99;
+}
+
+.hp-user-info .hd {
+    float: left;
+}
+
+.hp-user-info .bd {
+    background: rgba(225, 225, 225, 0.7) none repeat scroll 0 0;
+    height: 125px;
+    margin-left: 80px;
+}
+.bd input[type=button]{
+    float: right;
+    padding: 4px 6px;
+    margin: 3em 2em;
+    color: white;
+    background-color: #FF4500;
+    border: none;
+}
+.bd input[type=button]:hover{
+    background-color: #FF9900;
+}
+.hp-user-info .user-pic {
+    border-radius: 50%;
+    height: 125px;
+    margin-left: 5px;
+    max-width: none;
+    width: 125px;
+}
+tr{
+    height: 3em;
+}
+.thead{
+    font-weight: bold;
+}
+td{
+    padding: 2px;
+}
+td p{
+    width: 100%;
+}
+.contact-grid{
+    margin:0 0 1em 5em;
+    font-size: 1.4em;
+    width: 100%;
+    padding: 1em 1em;
+}
+.col{
+    padding: 3em 3em ;
+    margin: 1em auto;
+    width: 800px;
+}
+.col p{
+    padding: 2px;
+    font-size: 1.5em;
+    background-color: #DDEBF9;
+    width: 4.5em;
+    text-align: center;
+}
